@@ -1,0 +1,67 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.form-wrapper {
+  width: 100%;
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 0px;
+}
+
+.form-input {
+  width: 25%;
+  height: 25px;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.form-label {
+  font-weight: bold;
+  margin: 3px 0px;
+}
+
+.form-label-information {
+  text-decoration: underline;
+  margin: 8px 0px;
+  font-weight: 600;
+}
+
+.slider {
+  width: 25%;
+}
+
+.slider__label {
+  width: 25%;
+  font-weight: 500;
+  color: skyblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tennure-container {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  justify-content: space-between;
+}
+
+.tennure {
+  background-color: cadetblue;
+}
+
+.selected {
+  background-color: blueviolet;
+}
