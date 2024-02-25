@@ -1,0 +1,80 @@
+.card-container {
+  width: 35%;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #34495e;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.password-text {
+  font-size: larger;
+  font-weight: 600;
+}
+
+.char-length-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+
+.char-length-text-wrapper {
+  display: flex;
+  font-weight: 500;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.copy-button {
+  height: 30px;
+  font-size: 12px;
+  width: 15%;
+}
+
+.checkbox-wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 10px 0px;
+}
+
+.checkbox {
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.generate-password {
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+}
+
+.error-handler {
+  color: red;
+  padding-bottom: 10px;
+}
+
+.password-strength {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
